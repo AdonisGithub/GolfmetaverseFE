@@ -1,0 +1,65 @@
+{
+  "name": "cryptogolf",
+  "homepage": "https://golfmetaverse.io/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@react-google-maps/api": "^2.7.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.24.0",
+    "bootstrap": "^4.6.1",
+    "env-cmd": "^10.1.0",
+    "jquery": "^3.6.0",
+    "mdbreact": "^5.2.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15",
+    "popper.js": "^1.16.1",
+    "pure-react-carousel": "^1.27.8",
+    "react": "^17.0.2",
+    "react-autocomplete": "^1.8.1",
+    "react-bootstrap": "^2.1.0",
+    "react-dom": "^17.0.2",
+    "react-geocode": "^0.2.3",
+    "react-google-places-autocomplete": "^3.3.2",
+    "react-notifications-component": "^3.1.0",
+    "react-places-autocomplete": "^7.3.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "reactstrap": "^9.0.1",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "web-vitals": "^2.1.2"
+  },
+  "scripts": {
+    "start": "env-cmd -f ./.env.local react-scripts start",
+    "build": "env-cmd -f ./.env.local react-scripts build",
+    "start-prod": "env-cmd -f ./.env react-scripts start",
+    "build-prod": "env-cmd -f ./.env react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
