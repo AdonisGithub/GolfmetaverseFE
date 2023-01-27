@@ -7,7 +7,7 @@ const HotProductHolder = (props) => {
     <div className="col-12 col-sm-6 col-lg-4 p-2">
       <div className="hot_product_holder">
         <a href="/teetime">
-          <div className="efct_zom">
+          <div className="">
             <img
               src={`${props.data.sold === false ? abt_ban1 : flg_rd}`}
               className="w-100"
